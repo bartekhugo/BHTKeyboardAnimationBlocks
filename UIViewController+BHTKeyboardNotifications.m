@@ -2,7 +2,7 @@
 //  UIViewController+BHTKeyboardNotifications.m
 //
 //  Created by Bartek Hugo Trzcinski on 16/04/14.
-//  Copyright (c) 2014 All rights reserved.
+//  Copyright (c) 2014 Untitled Kingdom. All rights reserved.
 //
 
 #import "UIViewController+BHTKeyboardNotifications.h"
