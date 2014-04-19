@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB0276D1902D3BF0050A660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB0276C1902D3BF0050A660 /* Foundation.framework */; };
+		3EB0276F1902D3BF0050A660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB0276E1902D3BF0050A660 /* CoreGraphics.framework */; };
+		3EB027711902D3BF0050A660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB027701902D3BF0050A660 /* UIKit.framework */; };
+		3EB027771902D3BF0050A660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EB027751902D3BF0050A660 /* InfoPlist.strings */; };
+		3EB027791902D3BF0050A660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB027781902D3BF0050A660 /* main.m */; };
+		3EB0277D1902D3BF0050A660 /* BHTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0277C1902D3BF0050A660 /* BHTAppDelegate.m */; };
+		3EB027801902D3BF0050A660 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB0277E1902D3BF0050A660 /* Main_iPhone.storyboard */; };
+		3EB027831902D3BF0050A660 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB027811902D3BF0050A660 /* Main_iPad.storyboard */; };
+		3EB027861902D3BF0050A660 /* BHTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB027851902D3BF0050A660 /* BHTViewController.m */; };
+		3EB027881902D3BF0050A660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB027871902D3BF0050A660 /* Images.xcassets */; };
+		3EB0278F1902D3BF0050A660 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB0278E1902D3BF0050A660 /* XCTest.framework */; };
+		3EB027901902D3BF0050A660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB0276C1902D3BF0050A660 /* Foundation.framework */; };
+		3EB027911902D3BF0050A660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB027701902D3BF0050A660 /* UIKit.framework */; };
+		3EB027991902D3BF0050A660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EB027971902D3BF0050A660 /* InfoPlist.strings */; };
+		3EB0279B1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0279A1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.m */; };
+		3EB027A71902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB027A61902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB027921902D3BF0050A660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB027611902D3BF0050A660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB027681902D3BF0050A660;
+			remoteInfo = BHTKeyboardAnimationBlocksExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB027691902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHTKeyboardAnimationBlocksExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB0276C1902D3BF0050A660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EB0276E1902D3BF0050A660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3EB027701902D3BF0050A660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EB027741902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BHTKeyboardAnimationBlocksExample-Info.plist"; sourceTree = "<group>"; };
+		3EB027761902D3BF0050A660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EB027781902D3BF0050A660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB0277A1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BHTKeyboardAnimationBlocksExample-Prefix.pch"; sourceTree = "<group>"; };
+		3EB0277B1902D3BF0050A660 /* BHTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHTAppDelegate.h; sourceTree = "<group>"; };
+		3EB0277C1902D3BF0050A660 /* BHTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHTAppDelegate.m; sourceTree = "<group>"; };
+		3EB0277F1902D3BF0050A660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3EB027821902D3BF0050A660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3EB027841902D3BF0050A660 /* BHTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHTViewController.h; sourceTree = "<group>"; };
+		3EB027851902D3BF0050A660 /* BHTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHTViewController.m; sourceTree = "<group>"; };
+		3EB027871902D3BF0050A660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EB0278D1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHTKeyboardAnimationBlocksExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB0278E1902D3BF0050A660 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3EB027961902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BHTKeyboardAnimationBlocksExampleTests-Info.plist"; sourceTree = "<group>"; };
+		3EB027981902D3BF0050A660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EB0279A1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHTKeyboardAnimationBlocksExampleTests.m; sourceTree = "<group>"; };
+		3EB027A51902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BHTKeyboardNotifications.h"; path = "../../BHTKeyboardAnimationBlocks/UIViewController+BHTKeyboardNotifications.h"; sourceTree = "<group>"; };
+		3EB027A61902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+BHTKeyboardNotifications.m"; path = "../../BHTKeyboardAnimationBlocks/UIViewController+BHTKeyboardNotifications.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB027661902D3BF0050A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB0276F1902D3BF0050A660 /* CoreGraphics.framework in Frameworks */,
+				3EB027711902D3BF0050A660 /* UIKit.framework in Frameworks */,
+				3EB0276D1902D3BF0050A660 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB0278A1902D3BF0050A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB0278F1902D3BF0050A660 /* XCTest.framework in Frameworks */,
+				3EB027911902D3BF0050A660 /* UIKit.framework in Frameworks */,
+				3EB027901902D3BF0050A660 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB027601902D3BF0050A660 = {
+			isa = PBXGroup;
+			children = (
+				3EB027721902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample */,
+				3EB027941902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests */,
+				3EB0276B1902D3BF0050A660 /* Frameworks */,
+				3EB0276A1902D3BF0050A660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB0276A1902D3BF0050A660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB027691902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample.app */,
+				3EB0278D1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB0276B1902D3BF0050A660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0276C1902D3BF0050A660 /* Foundation.framework */,
+				3EB0276E1902D3BF0050A660 /* CoreGraphics.framework */,
+				3EB027701902D3BF0050A660 /* UIKit.framework */,
+				3EB0278E1902D3BF0050A660 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EB027721902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample */ = {
+			isa = PBXGroup;
+			children = (
+				3EB027A41902D3F00050A660 /* BHTKeyboardAnimationBlocks */,
+				3EB0277B1902D3BF0050A660 /* BHTAppDelegate.h */,
+				3EB0277C1902D3BF0050A660 /* BHTAppDelegate.m */,
+				3EB0277E1902D3BF0050A660 /* Main_iPhone.storyboard */,
+				3EB027811902D3BF0050A660 /* Main_iPad.storyboard */,
+				3EB027841902D3BF0050A660 /* BHTViewController.h */,
+				3EB027851902D3BF0050A660 /* BHTViewController.m */,
+				3EB027871902D3BF0050A660 /* Images.xcassets */,
+				3EB027731902D3BF0050A660 /* Supporting Files */,
+			);
+			path = BHTKeyboardAnimationBlocksExample;
+			sourceTree = "<group>";
+		};
+		3EB027731902D3BF0050A660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB027741902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample-Info.plist */,
+				3EB027751902D3BF0050A660 /* InfoPlist.strings */,
+				3EB027781902D3BF0050A660 /* main.m */,
+				3EB0277A1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EB027941902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0279A1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.m */,
+				3EB027951902D3BF0050A660 /* Supporting Files */,
+			);
+			path = BHTKeyboardAnimationBlocksExampleTests;
+			sourceTree = "<group>";
+		};
+		3EB027951902D3BF0050A660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB027961902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests-Info.plist */,
+				3EB027971902D3BF0050A660 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EB027A41902D3F00050A660 /* BHTKeyboardAnimationBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB027A51902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.h */,
+				3EB027A61902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.m */,
+			);
+			name = BHTKeyboardAnimationBlocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB027681902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB0279E1902D3BF0050A660 /* Build configuration list for PBXNativeTarget "BHTKeyboardAnimationBlocksExample" */;
+			buildPhases = (
+				3EB027651902D3BF0050A660 /* Sources */,
+				3EB027661902D3BF0050A660 /* Frameworks */,
+				3EB027671902D3BF0050A660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHTKeyboardAnimationBlocksExample;
+			productName = BHTKeyboardAnimationBlocksExample;
+			productReference = 3EB027691902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB0278C1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB027A11902D3BF0050A660 /* Build configuration list for PBXNativeTarget "BHTKeyboardAnimationBlocksExampleTests" */;
+			buildPhases = (
+				3EB027891902D3BF0050A660 /* Sources */,
+				3EB0278A1902D3BF0050A660 /* Frameworks */,
+				3EB0278B1902D3BF0050A660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB027931902D3BF0050A660 /* PBXTargetDependency */,
+			);
+			name = BHTKeyboardAnimationBlocksExampleTests;
+			productName = BHTKeyboardAnimationBlocksExampleTests;
+			productReference = 3EB0278D1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB027611902D3BF0050A660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BHT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bartek Hugo Trzcinski";
+				TargetAttributes = {
+					3EB0278C1902D3BF0050A660 = {
+						TestTargetID = 3EB027681902D3BF0050A660;
+					};
+				};
+			};
+			buildConfigurationList = 3EB027641902D3BF0050A660 /* Build configuration list for PBXProject "BHTKeyboardAnimationBlocksExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB027601902D3BF0050A660;
+			productRefGroup = 3EB0276A1902D3BF0050A660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB027681902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample */,
+				3EB0278C1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB027671902D3BF0050A660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB027831902D3BF0050A660 /* Main_iPad.storyboard in Resources */,
+				3EB027881902D3BF0050A660 /* Images.xcassets in Resources */,
+				3EB027801902D3BF0050A660 /* Main_iPhone.storyboard in Resources */,
+				3EB027771902D3BF0050A660 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB0278B1902D3BF0050A660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB027991902D3BF0050A660 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB027651902D3BF0050A660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB027861902D3BF0050A660 /* BHTViewController.m in Sources */,
+				3EB027791902D3BF0050A660 /* main.m in Sources */,
+				3EB0277D1902D3BF0050A660 /* BHTAppDelegate.m in Sources */,
+				3EB027A71902D3FA0050A660 /* UIViewController+BHTKeyboardNotifications.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB027891902D3BF0050A660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB0279B1902D3BF0050A660 /* BHTKeyboardAnimationBlocksExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB027931902D3BF0050A660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB027681902D3BF0050A660 /* BHTKeyboardAnimationBlocksExample */;
+			targetProxy = 3EB027921902D3BF0050A660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EB027751902D3BF0050A660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB027761902D3BF0050A660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EB0277E1902D3BF0050A660 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB0277F1902D3BF0050A660 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB027811902D3BF0050A660 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB027821902D3BF0050A660 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB027971902D3BF0050A660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB027981902D3BF0050A660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB0279C1902D3BF0050A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB0279D1902D3BF0050A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB0279F1902D3BF0050A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Prefix.pch";
+				INFOPLIST_FILE = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3EB027A01902D3BF0050A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Prefix.pch";
+				INFOPLIST_FILE = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3EB027A21902D3BF0050A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BHTKeyboardAnimationBlocksExample.app/BHTKeyboardAnimationBlocksExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BHTKeyboardAnimationBlocksExampleTests/BHTKeyboardAnimationBlocksExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3EB027A31902D3BF0050A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BHTKeyboardAnimationBlocksExample.app/BHTKeyboardAnimationBlocksExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHTKeyboardAnimationBlocksExample/BHTKeyboardAnimationBlocksExample-Prefix.pch";
+				INFOPLIST_FILE = "BHTKeyboardAnimationBlocksExampleTests/BHTKeyboardAnimationBlocksExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB027641902D3BF0050A660 /* Build configuration list for PBXProject "BHTKeyboardAnimationBlocksExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB0279C1902D3BF0050A660 /* Debug */,
+				3EB0279D1902D3BF0050A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB0279E1902D3BF0050A660 /* Build configuration list for PBXNativeTarget "BHTKeyboardAnimationBlocksExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB0279F1902D3BF0050A660 /* Debug */,
+				3EB027A01902D3BF0050A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB027A11902D3BF0050A660 /* Build configuration list for PBXNativeTarget "BHTKeyboardAnimationBlocksExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB027A21902D3BF0050A660 /* Debug */,
+				3EB027A31902D3BF0050A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB027611902D3BF0050A660 /* Project object */;
+}

@@ -213,7 +213,7 @@ static void * const kDidHideBlockKey  = (void*)&kDidHideBlockKey;
 {
     Method original, swizz;
     
-    original = class_getInstanceMethod([self class], @selector(viewDidDisappear::));
+    original = class_getInstanceMethod([self class], @selector(viewDidDisappear:));
     swizz = class_getInstanceMethod([self class], @selector(bht_viewDidDisappear:));
     method_exchangeImplementations(original, swizz);
 }
