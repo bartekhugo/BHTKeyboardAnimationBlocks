@@ -7,7 +7,14 @@ Provides a simple block based API to set animations to be performed on each of U
 Category registers only for those notifications for which there are any blocks set.
 Registering for notifications happens on `viewWillAppear:` method call and unregistering on `viewDidDisappear:` method call.
 
-Example
+Installation
+==========================
+
+- Add to your podfile:
+
+    pod 'UIViewController-BHTKeyboardAnimationBlocks', '~> 0.0.1'
+
+Usage
 ==========================
 
 > With current implementation it's important to set those blocks before `viewWillAppear:` method gets called
