@@ -21,10 +21,10 @@
 {
     [super viewDidLoad];
     
-    [self setupKeyboardAnimations];
+    [self setupWillKeyboardAnimations];
 }
 
-- (void)setupKeyboardAnimations
+- (void)setupWillKeyboardAnimations
 {
     __weak typeof(self) wself = self;
     
@@ -39,11 +39,23 @@
         wself.textFieldYAlignContratint.constant = 0.0;
         [wself.view layoutIfNeeded];
     }];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self setupDidKeyboardAnimations];
+}
+
+- (void)setupDidKeyboardAnimations
+{
+    __weak typeof(self) wself = self;
     
     [self setKeyboardDidShowActionBlock:^(CGRect keyboardFrame){
         // block to be performed when keyboard did appear
         wself.view.backgroundColor = [UIColor lightGrayColor
-                                    ];
+                                      ];
     }];
     
     [self setKeyboardDidHideActionBlock:^(CGRect keyboardFrame){
