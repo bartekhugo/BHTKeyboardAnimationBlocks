@@ -7,6 +7,8 @@ Provides a simple block based API to set animations to be performed on each of U
 Category registers only for those notifications for which there are any blocks set.
 Registering for notifications happens on `viewWillAppear:` method call and unregistering on `viewDidDisappear:` method call.
 
+If view controller is already visible when setting blocks It will automatically register for those notification or unregister from them when assigning `nil`.
+
 Installation
 ==========================
 
@@ -16,8 +18,6 @@ Installation
 
 Usage
 ==========================
-
-> With current implementation it's important to set those blocks before `viewWillAppear:` method gets called
 
 ```objc
 - (void)setupKeyboardAnimations
