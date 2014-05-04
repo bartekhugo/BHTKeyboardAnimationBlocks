@@ -14,7 +14,7 @@ Installation
 
 - Add to your podfile:
 
-    pod 'UIViewController-BHTKeyboardAnimationBlocks', '~> 0.0.1'
+    pod 'UIViewController-BHTKeyboardAnimationBlocks', '~> 0.0.2'
 
 Usage
 ==========================
